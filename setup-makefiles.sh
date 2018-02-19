@@ -24,4 +24,4 @@ export VENDOR=$(basename $(dirname $FP))
 
 export DEVICE_BRINGUP_YEAR=2016
 
-./../../$VENDOR/$DEVICE_COMMON/setup-files.sh $@
+./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
